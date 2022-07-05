@@ -16,6 +16,10 @@
    height: 100px; 
 }
 
+.row-banner { 
+  text-align: center; 
+}
+
 
 body { background: #0f0f0f; }
 
@@ -40,14 +44,13 @@ body { background: #0f0f0f; }
 
 
 header {
-   position: relative;
+   position: relative;  
    height: 800px;
    min-height: 500px;
    width: 100%;
    background: #2B2B2B no-repeat top center;
-   background-size: cover !important;
-	-webkit-background-size: cover !important;
-   text-align: center;
+   /* background-size: cover !important;
+	-webkit-background-size: cover !important; */
    overflow: hidden;
 }
 
@@ -71,11 +74,8 @@ header:before {
 }
 header .banner {
    display: inline-block;
-   vertical-align: middle;
-   margin: 0 auto;
    width: 85%;
    padding-bottom: 30px;
-   text-align: center;
 }
 
 header .banner-text { width: 100%; }
@@ -83,8 +83,8 @@ header .banner-text h1 {
    font: 5rem 'opensans-bold', sans-serif;
    color: #fff;
    letter-spacing: -2px;
-   margin: 0 auto 18px auto;
    text-shadow: 0px 1px 3px rgba(0, 0, 0, .8);
+   text-align: center;
 }
 header .banner-text h3 {
    font: 18px 'librebaskerville-regular', serif;
@@ -97,21 +97,21 @@ header .banner-text h3 {
 
 header .banner-text hr {
    width: 60%;
-   margin: 18px auto 24px auto;
+   /* margin: 18px auto 24px auto; */
    border-color: #2F2D2E;
    border-color: rgba(150, 150, 150, .1);
 }
 
 /* header social links */
 header .social {
-   margin: 24px 0;
+   /* margin: 24px 0; */
    padding: 0;
    font-size: 30px;
    text-shadow: 0px 1px 2px rgba(0, 0, 0, .8);
 }
 header .social li {
    display: inline-block;
-   margin: 0 15px;
+   /* margin: 0 15px; */
    padding: 0;
 }
 header .social li a { color: #fff; }
@@ -256,10 +256,11 @@ ul#nav li.current a { color: #F06000; }
 /* ------------------------------------------------------------------ */
 
 #RoadMap {
-   background: #fff;
+   background: #313131; 
    padding-top: 90px;
    padding-bottom: 72px;
    overflow: hidden;
+   color: #FFFFFF;
 }
 
 #RoadMap a, #RoadMap a:visited  { color: #11ABB0; }
@@ -273,6 +274,7 @@ ul#nav li.current a { color: #F06000; }
 #RoadMap h1 span {
    border-bottom: 3px solid #11ABB0;
    padding-bottom: 6px;
+   color: #FFFFFF;
 }
 #RoadMap h3 {
    font: 25px/30px 'opensans-bold', sans-serif;
@@ -350,7 +352,7 @@ ul#nav li.current a { color: #F06000; }
 /* ------------------------------------------------------------------ */
 
 #tool {
-   background: #ebeeee;
+   background: #313131 ;
    padding-top: 90px;
    padding-bottom: 60px;
 }
@@ -360,7 +362,7 @@ ul#nav li.current a { color: #F06000; }
    letter-spacing: 1px;
    text-align: center;
    margin-bottom: 48px;
-   color: #95A3A3;
+   color: #fff;
 }
 
 .script{
