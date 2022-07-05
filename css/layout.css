@@ -31,7 +31,7 @@ body { background: #0f0f0f; }
    width: 100%;
    font: 2rem 'opensans-bold', sans-serif;
    color: #fff;
-   background: #161415 url(../images/header-background.jpg) no-repeat top center;
+   background:  #2B2B2B no-repeat top center;
    background-size: cover !important;
 	-webkit-background-size: cover !important;
    text-align: center;
@@ -44,7 +44,7 @@ header {
    height: 800px;
    min-height: 500px;
    width: 100%;
-   background: #161415 url(../images/header-background.jpg) no-repeat top center;
+   background: #2B2B2B no-repeat top center;
    background-size: cover !important;
 	-webkit-background-size: cover !important;
    text-align: center;
@@ -80,14 +80,14 @@ header .banner {
 
 header .banner-text { width: 100%; }
 header .banner-text h1 {
-   font: 6rem 'opensans-bold', sans-serif;
+   font: 5rem 'opensans-bold', sans-serif;
    color: #fff;
    letter-spacing: -2px;
    margin: 0 auto 18px auto;
    text-shadow: 0px 1px 3px rgba(0, 0, 0, .8);
 }
 header .banner-text h3 {
-   font: 18px/1.9em 'librebaskerville-regular', serif;
+   font: 18px 'librebaskerville-regular', serif;
    color: white;
    padding-top: 4em;
    margin: 0 auto;
